@@ -1,0 +1,46 @@
+.TodoForm form {
+  display: flex;
+  width: 80%;
+  margin: 2rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .TodoForm form {
+    width: 90%;
+  }
+}
+
+.TodoForm input {
+  border: 1px solid #b0eacd;
+  background-color: #262c35;
+  color: #e5e2ec;
+  border-radius: 16px;
+  padding: 1em 2em;
+  width: 80%;
+  font-family: inherit;
+  font-size: 1.1rem;
+  transition: border 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.TodoForm input:focus {
+  border: 1px solid #21bf73;
+}
+
+.TodoForm-button {
+  width: 10%;
+  text-align: center;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+  background: #21bf73;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 16px;
+  padding: 0.5em;
+}
+.TodoForm-button:hover {
+  background: #1b975b;
+}

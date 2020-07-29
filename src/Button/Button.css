@@ -1,0 +1,31 @@
+.Button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: trasnform 0.6s ease-out;
+  transform-origin: center;
+}
+.Button:hover {
+  transform: scale(1.05);
+}
+.Button-primary {
+  background-color: #21bf73;
+  border-radius: 16px;
+  width: 4rem;
+  height: 4rem;
+  padding: 12px;
+}
+/* .Button-primary:hover {
+  background-color: #22a164;
+} */
+.Button img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

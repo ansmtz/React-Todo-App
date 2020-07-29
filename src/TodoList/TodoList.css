@@ -1,0 +1,31 @@
+.TodoList {
+  width: 60%;
+  margin: 3rem auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 0.7rem;
+  background-color: #262c35;
+}
+
+@media (max-width: 700px) {
+  .TodoList {
+    width: 90%;
+    margin: 1rem auto;
+  }
+}
+
+.TodoList h1 {
+  color: #e5e2ec;
+  /* font-size: 2.1rem; */
+  text-align: left;
+  margin: 2rem 1rem;
+}
+
+.msg {
+  font-size: 1.5rem;
+  color: #d8d4e0;
+  margin: 2rem 1rem;
+}
+
+ul {
+  list-style: none;
+}
