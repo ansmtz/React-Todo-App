@@ -38,6 +38,7 @@ class TodoForm extends Component {
             placeholder="New Todo"
             id="newTodo"
             onChange={this.changeHandler}
+            autoComplete="false"
           />
           <Button isPrimary="true" icon={tick} alt="Add" />
         </form>
