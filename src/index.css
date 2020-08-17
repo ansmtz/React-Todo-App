@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 :root {
-  font-size: calc(0.2em + 1vw);
+  font-size: calc(0.4em + 1vw);
 }
 body {
   margin: 0;

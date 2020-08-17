@@ -15,7 +15,8 @@
 }
 .Button-primary {
   background-color: #21bf73;
-  border-radius: 16px;
+  border-radius: 1rem;
+  /* padding: 1rem; */
   width: 4rem;
   height: 4rem;
   padding: 12px;
