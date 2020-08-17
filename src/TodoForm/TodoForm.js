@@ -40,7 +40,7 @@ class TodoForm extends Component {
             onChange={this.changeHandler}
             autoComplete="false"
           />
-          <Button isPrimary="true" icon={tick} alt="Add" />
+          <Button isPrimary icon={tick} alt="Add" />
         </form>
       </div>
     );

@@ -13,7 +13,8 @@ const Button = (props) => {
       className={!props.isPrimary ? "Button" : "Button Button-primary"}
       onClick={clickHandler}
     >
-      <img src={props.icon} alt={props.alt} />
+      {props.children}
+      {props.icon && <img src={props.icon} alt={props.alt} />}
     </button>
   );
 };
